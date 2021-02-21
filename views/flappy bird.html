@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+    <a href="https://github.com/processing/p5.js/wiki/Local-server"></a>
+</head>
+<style>
+
+    #play-btn{
+        padding: 15px 45px;
+        position:absolute;
+        left: 220px;
+        top: 310px;
+        background: none;
+        border: 2px solid rgb(51, 51, 50);
+        border-radius: 5px;
+        background-color: #D72F17;
+        font-size: 25px;
+        color: whitesmoke;
+        font-weight:bold;
+    }
+    #heading{ position:absolute;
+        left: 180px;
+        top: 70px;
+        font-size: 45px;
+        color: rgba(245, 245, 245, 0.911);
+    }
+    #birdIMAGE{
+        position:absolute; 
+        width: 135px; 
+        left: 270px;
+        top: 180px;
+    }
+    /* .removeHEADIND{
+        color: red;
+    }
+     */
+</style>
+
+
+
+<body>
+    <h1 id="heading">Flappy Bird</h1>
+   <button id="play-btn">play</button>
+   <img src="images/bird.png" alt="" id="birdIMAGE">
+
+
+    <script src="flappy bird.js"></script>
+    <script src="bird.js"></script>
+    <script src="pipes.js"></script>
+    <script src="clouds.js"></script>
+</body>
+</html> 
